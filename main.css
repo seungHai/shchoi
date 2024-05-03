@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'SOYOMapleBoldTTF';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/SOYOMapleBoldTTF.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body, html {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    width: 100%;
+    font-family: 'SOYOMapleBoldTTF', sans-serif;
+}
+.wrapper {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-image: url('images/sky.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+header, nav, main, footer {
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2{
+    color: black;
+    text-align: center;
+    text-shadow: -1px 0px white, 0px 1px white, 1px 0px white, 0px -1px white;
+}
+
+img{
+    width: 100%;
+}
+
+button {
+    margin-top: 1rem;
+    padding: 10px 20px;
+    font-family: 'SOYOMapleBoldTTF', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 5px #666;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: #3e8e41;
+    box-shadow: 0 6px #666;
+    transform: translateY(-1px);
+}
+
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 3px #666;
+    transform: translateY(2px);
+}
+
+.footer{
+    font-size: 11px;
+    color: black;
+    text-align: center;
+    text-shadow: -1px 0px white, 0px 1px white, 1px 0px white, 0px -1px white;
+}
+
+.github{
+    fill: white;
+}
+
+.center{
+    text-align: center;
+}
+
+@media (min-width: 501px) {
+
+    body {
+        background-color: #f0f0f0;
+    }
+
+}
+
+@media (max-width: 767px) {
+    nav ul li {
+        display: block;
+        margin-bottom: 5px;
+    }
+}
